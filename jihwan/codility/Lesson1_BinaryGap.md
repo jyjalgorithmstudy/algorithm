@@ -48,3 +48,28 @@ def solution(N):
 
 ```
 
+
+
+
+
+- Javascript
+
+```Javascript
+function solution(N) {
+   // write your code in JavaScript (Node.js 8.9.4)
+    let maxGap = 0;
+    let tmpGap = 0;
+    const binaryNum = N.toString(2);
+    for(let idx = 0; idx < binaryNum.length;idx++){
+        if(binaryNum[idx] =='0'){
+            tmpGap += 1;
+        }else{
+            maxGap = tmpGap < maxGap ? maxGap : tmpGap;
+            tmpGap = 0;
+        }
+    }
+    return maxGap;
+}
+
+```
+
