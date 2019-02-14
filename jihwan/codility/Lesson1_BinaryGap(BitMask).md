@@ -3,12 +3,12 @@
 - java
 
 ```java
-  public static int solution(int N) {
+   public static int solution(int N) {
         Boolean isStart = false;
         int zeroCnt = 0;
         int max = 0;
 
-        int bitmask = 1;
+        long bitmask = 1;
 
         while (N > bitmask) {
 
@@ -24,10 +24,8 @@
             } else if (isStart) {
                 zeroCnt++;
             }
-
-            bitmask *= 2;
+            bitmask <<= 1;
         }
-
         return max;
     }
 ```
