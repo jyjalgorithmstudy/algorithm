@@ -11,7 +11,6 @@ public class Lesson3_FrogJmp {
          *                2. X - Y(남은 거리)에 나머지와 몫을 구한다.
          *                3. 나머지가 0인 경우, Y에 도착한 경우로 몫을 리턴한다.
          *                4. 나머지가 0이 아닌 경우, Y를 넘어선 경우이므로 몫 + 1를 리턴한다.
-
          */
         int leftDistance = Y - X;
         if(leftDistance == 0){
