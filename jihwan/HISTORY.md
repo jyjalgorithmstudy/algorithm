@@ -12,8 +12,13 @@
   - [solved] Lesson2.OddOccurrenceInArray(java)
 - 2019 . 2 .18
   - [solved] Lesson2.CyclicRotation(java)
-
-
+- 2019 . 2 .19
+  - [solved] Lesson3.FrogJmp
+- 2019 . 2. 21
+  - [solved] Lesson3.PermMissingElem
+- 2019 . 2. 26
+  - [solved] Lesson3_TapeEquilibrium
+- ​
 
 
 
