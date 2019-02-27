@@ -18,7 +18,8 @@
   - [solved] Lesson3.PermMissingElem
 - 2019 . 2. 26
   - [solved] Lesson3_TapeEquilibrium
-- ​
+- 2019 . 2. 27
+  - [solved by Map] Lesson4_PermCheck
 
 
 
