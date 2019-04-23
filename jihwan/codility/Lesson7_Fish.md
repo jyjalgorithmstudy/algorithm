@@ -2,6 +2,10 @@
 
 
 
+문제의 조건에 따라 물고기는 위치, 방향(UP/DOWN), 몸집(Volumn)이 주어진다. 
+
+
+
 ```java
 package jihwan.codility;
 
