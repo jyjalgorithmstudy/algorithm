@@ -10,7 +10,7 @@ public class Lesson8_Dominator {
          * solution     : 1. HashMap 만든다.
          *                2. Map에 Key로 원소를 Value로 count를 저장한다.
          *                3. maxNumberCount 변수를 지정하여, 원소의 Value가 가장 많은 갯수를 저장한다. 이때, Index도 저장한다.
-         *                4. maxNumberCount (A 배열의 가장 많은 Value의 누적 갯수 중)가 ,과반수 이상의 카운트를 가지면 Index를 리턴한다.
+         *                4. maxNumberCount (A 배열의 가장 많은 Value의 누적 갯수 중)가 과반수 이상의 카운트를 가지면 Index를 리턴한다.
          *                5. 그렇지 않으면 -1를 리턴한다.
          *
          * complexity   : O(N*log(N)) or O(N)
