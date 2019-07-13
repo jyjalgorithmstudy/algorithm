@@ -7,7 +7,7 @@ public class Lesson9_MaxProfit {
          * solution     : 1. 가장 작은 원소를 찾는다. (Min 함수를 통해)
          *                2. 가장 큰 수익을 구한다. (Max 함수를 통해 [기존 수익]과 [현재 값 - 최소 값]중 큰 것을 선택)
          *
-         * complexity   : O(N*log(N)) or O(N)
+         * complexity   : O(N)
          */
         int[] A = {23171, 21011, 21123, 21366, 21013, 21367};
         System.out.println(solution(A));
