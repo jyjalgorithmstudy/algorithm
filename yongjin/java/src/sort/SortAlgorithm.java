@@ -8,8 +8,8 @@ public class SortAlgorithm {
         /**
          * 선택정렬
          */
-//        selectionSort(input);
-//        System.out.println(Arrays.toString(input));
+        selectionSort(input);
+        System.out.println(Arrays.toString(input));
         /**
          * 버블정렬
          */
@@ -19,8 +19,8 @@ public class SortAlgorithm {
         /**
          * 삽입정렬
          */
-        insertionSort(input);
-        System.out.println(Arrays.toString(input));
+//        insertionSort(input);
+//        System.out.println(Arrays.toString(input));
     }
 
     /**
@@ -29,7 +29,7 @@ public class SortAlgorithm {
      */
     private static void selectionSort(int[] input) {
         int tmp;
-        for (int i = 0; i <  input.length - 1; i ++) {
+        for (int i = 0; i < input.length - 1; i ++) {
             for (int j = i + 1; j < input.length; j ++) {
                 if (input[i] > input[j]) {
                     tmp = input[j];
@@ -39,6 +39,7 @@ public class SortAlgorithm {
             }
         }
     }
+
     /**
      * 버블정렬
      * n번째 인덱스와 n + 1번째 값 비교하여 큰 값을 뒤로 보낸다.
@@ -55,6 +56,7 @@ public class SortAlgorithm {
             }
         }
     }
+
     /**
      * 삽입정렬
      * 기준이 되는 수와 앞의 수의 값 비교하여 앞에 큰 수가 있다면 큰 수를 뒤로 옮기고 기준이 되는 수를 삽입한다.
