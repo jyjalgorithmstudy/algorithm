@@ -1,4 +1,4 @@
-public class Lesson10_MinPermeterRectangle {
+public class Lesson10_MinPerimeterRectangle {
 
     public static void main(String[] args){
         /**
